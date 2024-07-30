@@ -14,7 +14,7 @@
 <body>
     <div class="cv-container">
         <div class="left-column">
-            <img class="portrait" src="/home/carla/Téléchargements/IMG_1734.jpg" /> 
+            <img class="portrait" src="/home/carla/Téléchargements/mickey.jpg" /> 
             <div class="section">
                 <p>
                     <i class="icon fab fa-linkedin text-darkblue"></i> carla-carrion
@@ -162,137 +162,137 @@
                     <strong>2019 <i class="fas fa-long-arrow-alt-right"></i>2020</strong>
                     <br>
                     <em>CAP, Agent Polyvalent de Restauration</em>, Diplomé, Lycée Colbert
-                </p>
-            </div>
+                </p><br>
+<style>
+    /* GENERAL */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+h1{
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+h2{
+  margin: 0 0 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: #e436c7;
+}
+
+.text-darkblue{
+  color: #e436c7;
+}
+
+.text-uppercase{
+  text-transform: uppercase; 
+}
+
+.icon{
+  margin-right: .5rem;
+}
+
+.cv-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left-column right-column right-column";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.section{
+  margin-bottom: 1.5rem;
+}
+
+/* LEFT COLUMN */
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #4472C4;
+  color: white;
+}
+
+.portait{
+  border-radius: 50%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.skills{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+}
+
+/* RIGHT COLUMN */
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+}
+
+/* HEADER */
+.header{
+  grid-area: header;
+  padding: 50px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infos{
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* CONTENT */
+.content{
+  grid-area: content;
+  padding: 50px;
+}
+
+.experience-list{
+  list-style-type: circle;
+}
             </div>
         </div>
     </div>
-     <style>  
-    /* GENERAL */
-    *{
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    body{
-        font-family: system-ui;
-        font-weight: 300;
-        font-size: .9rem;
-        line-height: 1.5;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    a:hover{
-        text-decoration: underline;
-    }
-
-    p{
-        margin: 0 0 1rem;
-    }
-
-    h1{
-        margin: 0 0 1rem;
-        font-size: 2.5rem;
-        margin: .5rem;
-    }
-
-    h2{
-        margin: 0 0 1rem;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-    .text-blue{
-        color: #4472C4;
-    }
-
-    .text-darkblue{
-        color: #002060;
-    }
-
-    .text-uppercase{
-        text-transform: uppercase;
-    }
-
-    .icon{
-        margin-right: .5rem;
-    }
-
-    .cv-container{
-        display: flex;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "left-column right column";
-        width: 1200px;
-        margin: 100px auto;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-
-    .section{
-        margin-bottom: 1.5rem;
-    }
-
-    /* LEFT COLUMN */
-    .left-column{
-        grid-area: left-column;
-        padding: 50px;
-        background-color: #e07ad8;
-        color: black;
-    }
-
-    .portrait{
-        max-width: 150px;
-        margin: auto;
-        display: block;
-        margin-bottom: 50px;
-    }
-
-    .skills{
-        list-style-type: none;
-        padding: 0;
-        font-size: 1.1rem;
-        letter-spacing: 1px;
-        margin: 0 0 1rem;
-    }
-
-    /* RIGHT COLUMN */
-    .right-column{
-        grid-area: right-column;
-        display: grid;
-        grid-template-rows: 250px 1fr;
-        grid-template-areas: 
-        "header"
-        "content";
-    }
-
-    /* HEADER */
-    .header{
-        grid-area: header;
-        padding: 50px;
-        background-color: #e07ad8;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .infos{
-        columns: 2;
-        list-style-type: none;
-        padding: 0;
-    }
-
-    /* CONTENT */
-    .content{
-        grid-area: content;
-        padding: 50px;
-    }
-
-    .experience-list{
-        list-style-type: circle;
-    }
-    </style>
+</div>
 </body>
-</html>/home/carla/DEV_Carla/index.html
+</html>
